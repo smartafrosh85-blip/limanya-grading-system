@@ -1,0 +1,7 @@
+limanya.db
+student_photos/
+__pycache__/
+*.pyc
+.env
+.git
+.DS_Store

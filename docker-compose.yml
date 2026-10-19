@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  limanya:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - limanya_data:/data
+    environment:
+      - LIMANYA_HOST=0.0.0.0
+      - LIMANYA_PORT=8000
+
+volumes:
+  limanya_data:
